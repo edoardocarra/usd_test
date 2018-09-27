@@ -1,0 +1,4 @@
+/Users/visgraph/Projects/usd_test/c++/build/CMakeFiles/rebuild_cache.dir
+/Users/visgraph/Projects/usd_test/c++/build/CMakeFiles/edit_cache.dir
+/Users/visgraph/Projects/usd_test/c++/build/CMakeFiles/run.dir
+/Users/visgraph/Projects/usd_test/c++/build/CMakeFiles/usd_obj.dir

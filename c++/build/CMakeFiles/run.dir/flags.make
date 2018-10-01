@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wno-missing-braces -Wno-deprecated-register -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/usr/local/Frameworks/Python.framework/Versions/3.7/include/python3.7m -I/opt/local/USD/include 
+CXX_INCLUDES = -I/usr/local/Frameworks/Python.framework/Versions/3.7/include/python3.7m -I/opt/local/USD/include 
 

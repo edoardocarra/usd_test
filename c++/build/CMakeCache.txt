@@ -44,6 +44,12 @@ Boost_PYTHON27_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_python27-mt.dylib
 //Boost python27 library (release)
 Boost_PYTHON27_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_python27-mt.dylib
 
+//Boost python3 library (debug)
+Boost_PYTHON3_LIBRARY_DEBUG:FILEPATH=Boost_PYTHON3_LIBRARY_DEBUG-NOTFOUND
+
+//Boost python3 library (release)
+Boost_PYTHON3_LIBRARY_RELEASE:FILEPATH=Boost_PYTHON3_LIBRARY_RELEASE-NOTFOUND
+
 //Boost python library (debug)
 Boost_PYTHON_LIBRARY_DEBUG:FILEPATH=Boost_PYTHON_LIBRARY_DEBUG-NOTFOUND
 
@@ -231,7 +237,7 @@ PYTHON_LIBRARY:FILEPATH=/usr/local/Frameworks/Python.framework/Versions/3.7/lib/
 PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 
 //Dependencies for the target
-usd_obj_LIB_DEPENDS:STATIC=general;/usr/local/lib/libboost_filesystem-mt.dylib;general;/usr/local/lib/libboost_system-mt.dylib;general;/usr/local/lib/libboost_date_time-mt.dylib;general;/usr/local/lib/libboost_python27-mt.dylib;general;/usr/local/Frameworks/Python.framework/Versions/3.7/lib/libpython3.7m.dylib;
+usd_obj_LIB_DEPENDS:STATIC=general;/usr/local/Frameworks/Python.framework/Versions/3.7/lib/libpython3.7m.dylib;
 
 //Value Computed by CMake
 usd_test_BINARY_DIR:STATIC=/Users/visgraph/Projects/usd_test/c++/build
@@ -264,6 +270,10 @@ Boost_LIBRARY_DIR_RELEASE-ADVANCED:INTERNAL=1
 Boost_PYTHON27_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_PYTHON27_LIBRARY_RELEASE
 Boost_PYTHON27_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_PYTHON3_LIBRARY_DEBUG
+Boost_PYTHON3_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_PYTHON3_LIBRARY_RELEASE
+Boost_PYTHON3_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_PYTHON_LIBRARY_DEBUG
 Boost_PYTHON_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_PYTHON_LIBRARY_RELEASE
@@ -410,7 +420,7 @@ PYTHON_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_LIBRARY_DEBUG
 PYTHON_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=date_time;filesystem;python;python27;system
+_Boost_COMPONENTS_SEARCHED:INTERNAL=date_time;filesystem;python;python27;python3;system
 //Last used Boost_INCLUDE_DIR value.
 _Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/local/include
 //Last used Boost_LIBRARY_DIR_DEBUG value.

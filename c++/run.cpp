@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <iostream>
 
+#include "stream.h"
+#include "streamIO.h"
+#include "translator.h"
+
 int main(int argc, char* argv[]) {
-	std::cout<<"ciao gesu";
+	std::string error = "";
+	pxr::UsdObjStream stream;
+	pxr::UsdObjReadDataFromFile("teapot.obj",&stream,&error);
 } 

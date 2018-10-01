@@ -4,8 +4,8 @@ project (usd_test)
 
 set (CMAKE_CXX_STANDARD 11)
 
-find_package(Boost COMPONENTS filesystem system date_time python27 REQUIRED)
 find_package(PythonLibs REQUIRED)
+find_package(Boost COMPONENTS python3 REQUIRED)
 
 add_definitions(-Wno-missing-braces)
 add_definitions(-Wno-deprecated-register)

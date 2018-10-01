@@ -13,7 +13,6 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include"
   "/usr/local/Frameworks/Python.framework/Versions/3.7/include/python3.7m"
   "/opt/local/USD/include"
   )

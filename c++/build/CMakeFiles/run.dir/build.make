@@ -91,10 +91,6 @@ run_EXTERNAL_OBJECTS =
 ../bin/run: CMakeFiles/run.dir/run.cpp.o
 ../bin/run: CMakeFiles/run.dir/build.make
 ../bin/run: ../bin/libusd_obj.a
-../bin/run: /usr/local/lib/libboost_filesystem-mt.dylib
-../bin/run: /usr/local/lib/libboost_system-mt.dylib
-../bin/run: /usr/local/lib/libboost_date_time-mt.dylib
-../bin/run: /usr/local/lib/libboost_python27-mt.dylib
 ../bin/run: /usr/local/Frameworks/Python.framework/Versions/3.7/lib/libpython3.7m.dylib
 ../bin/run: CMakeFiles/run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/visgraph/Projects/usd_test/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/run"

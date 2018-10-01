@@ -236,8 +236,8 @@ PYTHON_LIBRARY:FILEPATH=/usr/local/Frameworks/Python.framework/Versions/3.7/lib/
 //Path to a library.
 PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 
-//Dependencies for the target
-usd_obj_LIB_DEPENDS:STATIC=general;/usr/local/Frameworks/Python.framework/Versions/3.7/lib/libpython3.7m.dylib;
+//Dependencies for target
+usd_obj_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 usd_test_BINARY_DIR:STATIC=/Users/visgraph/Projects/usd_test/c++/build

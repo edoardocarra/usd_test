@@ -123,46 +123,6 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-#=============================================================================
-# Target rules for targets named usd_obj
-
-# Build rule for target.
-usd_obj: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 usd_obj
-.PHONY : usd_obj
-
-# fast build rule for target.
-usd_obj/fast:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/build
-.PHONY : usd_obj/fast
-
-fileFormat.o: fileFormat.cpp.o
-
-.PHONY : fileFormat.o
-
-# target to build an object file
-fileFormat.cpp.o:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/fileFormat.cpp.o
-.PHONY : fileFormat.cpp.o
-
-fileFormat.i: fileFormat.cpp.i
-
-.PHONY : fileFormat.i
-
-# target to preprocess a source file
-fileFormat.cpp.i:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/fileFormat.cpp.i
-.PHONY : fileFormat.cpp.i
-
-fileFormat.s: fileFormat.cpp.s
-
-.PHONY : fileFormat.s
-
-# target to generate assembly for a file
-fileFormat.cpp.s:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/fileFormat.cpp.s
-.PHONY : fileFormat.cpp.s
-
 run.o: run.cpp.o
 
 .PHONY : run.o
@@ -190,87 +150,6 @@ run.cpp.s:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/run.cpp.s
 .PHONY : run.cpp.s
 
-stream.o: stream.cpp.o
-
-.PHONY : stream.o
-
-# target to build an object file
-stream.cpp.o:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/stream.cpp.o
-.PHONY : stream.cpp.o
-
-stream.i: stream.cpp.i
-
-.PHONY : stream.i
-
-# target to preprocess a source file
-stream.cpp.i:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/stream.cpp.i
-.PHONY : stream.cpp.i
-
-stream.s: stream.cpp.s
-
-.PHONY : stream.s
-
-# target to generate assembly for a file
-stream.cpp.s:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/stream.cpp.s
-.PHONY : stream.cpp.s
-
-streamIO.o: streamIO.cpp.o
-
-.PHONY : streamIO.o
-
-# target to build an object file
-streamIO.cpp.o:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/streamIO.cpp.o
-.PHONY : streamIO.cpp.o
-
-streamIO.i: streamIO.cpp.i
-
-.PHONY : streamIO.i
-
-# target to preprocess a source file
-streamIO.cpp.i:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/streamIO.cpp.i
-.PHONY : streamIO.cpp.i
-
-streamIO.s: streamIO.cpp.s
-
-.PHONY : streamIO.s
-
-# target to generate assembly for a file
-streamIO.cpp.s:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/streamIO.cpp.s
-.PHONY : streamIO.cpp.s
-
-translator.o: translator.cpp.o
-
-.PHONY : translator.o
-
-# target to build an object file
-translator.cpp.o:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/translator.cpp.o
-.PHONY : translator.cpp.o
-
-translator.i: translator.cpp.i
-
-.PHONY : translator.i
-
-# target to preprocess a source file
-translator.cpp.i:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/translator.cpp.i
-.PHONY : translator.cpp.i
-
-translator.s: translator.cpp.s
-
-.PHONY : translator.s
-
-# target to generate assembly for a file
-translator.cpp.s:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/translator.cpp.s
-.PHONY : translator.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -280,22 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... run"
-	@echo "... usd_obj"
-	@echo "... fileFormat.o"
-	@echo "... fileFormat.i"
-	@echo "... fileFormat.s"
 	@echo "... run.o"
 	@echo "... run.i"
 	@echo "... run.s"
-	@echo "... stream.o"
-	@echo "... stream.i"
-	@echo "... stream.s"
-	@echo "... streamIO.o"
-	@echo "... streamIO.i"
-	@echo "... streamIO.s"
-	@echo "... translator.o"
-	@echo "... translator.i"
-	@echo "... translator.s"
 .PHONY : help
 
 

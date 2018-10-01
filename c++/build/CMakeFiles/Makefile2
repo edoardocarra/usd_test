@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/visgraph/Projects/usd_test/c++/build
 # Target rules for target CMakeFiles/run.dir
 
 # All Build rule for target.
-CMakeFiles/run.dir/all: CMakeFiles/usd_obj.dir/all
+CMakeFiles/run.dir/all:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/visgraph/Projects/usd_test/c++/build/CMakeFiles --progress-num=1,2 "Built target run"
@@ -76,7 +76,7 @@ all: CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/visgraph/Projects/usd_test/c++/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/visgraph/Projects/usd_test/c++/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/visgraph/Projects/usd_test/c++/build/CMakeFiles 0
 .PHONY : CMakeFiles/run.dir/rule
@@ -93,43 +93,6 @@ CMakeFiles/run.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/run.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/usd_obj.dir
-
-# All Build rule for target.
-CMakeFiles/usd_obj.dir/all:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/depend
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/visgraph/Projects/usd_test/c++/build/CMakeFiles --progress-num=3,4,5,6,7 "Built target usd_obj"
-.PHONY : CMakeFiles/usd_obj.dir/all
-
-# Include target in all.
-all: CMakeFiles/usd_obj.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/usd_obj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/visgraph/Projects/usd_test/c++/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/usd_obj.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/visgraph/Projects/usd_test/c++/build/CMakeFiles 0
-.PHONY : CMakeFiles/usd_obj.dir/rule
-
-# Convenience name for target.
-usd_obj: CMakeFiles/usd_obj.dir/rule
-
-.PHONY : usd_obj
-
-# clean rule for target.
-CMakeFiles/usd_obj.dir/clean:
-	$(MAKE) -f CMakeFiles/usd_obj.dir/build.make CMakeFiles/usd_obj.dir/clean
-.PHONY : CMakeFiles/usd_obj.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/usd_obj.dir/clean
 
 .PHONY : clean
 
